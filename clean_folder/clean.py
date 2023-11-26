@@ -217,6 +217,11 @@ def run_analytics(folder):
     print('Все прибрано')
 
 
-input_folder = get_input_folder()
-sort_folder(input_folder, input_folder)
-run_analytics(input_folder)
+def main():
+
+    input_folder = get_input_folder()
+    sort_folder(input_folder, input_folder)
+    run_analytics(input_folder)
+    
+if __name__ == "__main__":
+    main()
